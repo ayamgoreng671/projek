@@ -40,10 +40,15 @@ $no = 1;
                                                 placeholder="Masukkan Judul Pengumuman"
                                                 value="<?php echo $row['judul_pengumuman']; ?>" autocomplete="off">
                                         </div>
-                                        <div class="form-group">
+                                        <!-- <div class="form-group">
                                             <input type="text" name="pengumuman" class="form-control form-control-user"
                                                 placeholder="Masukkan Pengumuman"
-                                                value="<?php echo $row['pengumuman']; ?>" autocomplete="off">
+                                                 autocomplete="off">
+                                        </div> -->
+                                        <div class="form-group">
+                                            <!-- <input type="text" name="pengumuman" class="form-control form-control-user"
+                                                placeholder="Masukkan Pengumuman" autocomplete="off"> -->
+                                                <textarea type="text" name="pengumuman" id="" placeholder="Masukkan pengumuman" class="form-control form-control-user" style="height: 104px;" value="" required><?php echo $row['pengumuman']; ?></textarea>
                                         </div>
 
                                         <div class="form-group">
