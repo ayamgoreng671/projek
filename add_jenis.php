@@ -40,6 +40,7 @@
                                                 placeholder="Masukkan Bukti Transaksi" autocomplete="off" required>
                                         </div>
                                         <div class="form-group-btn">
+                                        <a href="view_jenis.php" class="btn btn-warning">Keluar</a>
                                             <button class="btn btn-primary">Tambah Data</button>
                                         </div>
                                     </form>

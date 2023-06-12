@@ -58,9 +58,10 @@ $no = 1;
                                                 width="200px">
                                         </div>
                                         <div class="form-group-btn">
+                                        <a href="view_jenis.php" class="btn btn-warning">Keluar</a>
                                             <button class="btn btn-primary" type="submit" name="submit">Ubah
                                                 Data</button>
-                                                <a href="view_jenis.php" class="btn btn-warning">Keluar</a>
+                                                
                                         </div>
                                     </form>
                                     <?php
