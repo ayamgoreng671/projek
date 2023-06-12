@@ -61,4 +61,24 @@ if(isset($_GET['delete_jenis'])){
     }
 }
 
+if(isset($_GET['delete_laporan'])){
+    $id = $_GET['delete_laporan'];
+    $sql = "DELETE FROM t_report where id_report = $id";
+    $result = mysqli_query($con,$sql);
+
+    if($result){
+        echo "<script>
+        alert('Data berhasil dihapus');
+        document.location = 'view_laporan.php';
+    </script>";
+    }else{
+        die(mysqli_error($con));
+        echo"<script>
+        alert('Data gagal dihapus');
+        document.location = 'view_laporan.php';
+    </script>";
+    }
+}
+
+
 ?>

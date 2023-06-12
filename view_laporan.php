@@ -115,9 +115,8 @@ $no = 1;
 
 
                                                     <?php if ($_SESSION['status_admin'] == "active") {
-                                                        echo '<td><a href="update_transaksi.php?updateid=' . $row['id_transaksi'] . '"
-                                                        class="btn btn-primary mb-3">Update</a><br>
-                                                    <a href="delete.php?delete_transaksi=' . $row['id_transaksi'] . '"
+                                                        echo '<td>
+                                                    <a href="delete.php?delete_laporan=' . $row['id_report'] . '"
                                                         class="btn btn-danger">Delete</a></td';
 
                                                     } ?>
